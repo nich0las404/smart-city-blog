@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@layer components{
+    .max-container{
+        max-width: 1440px;
+        margin: 0 auto;
+    };
+    .text-img{
+        background: url('./assets/Futuristic-town-indo1.jpg');
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      
+      .hover-bounce {
+        @apply transition-all duration-300; /* Smooth transition for the bounce effect */
+      }
+      
+      .hover-bounce:hover i{
+        animation: bounce 0.6s infinite;
+      }
+  .background-shadow{
+    box-shadow: 0px -10px 25px 10px white;
+  }
+  .info-text{
+    @apply font-faculty-glyphic w-[80%] max-w-screen-xl bg-white py-4 leading-[25px] text-justify
+  }
+  .title-text{
+    @apply font-oswald text-5xl py-2 mx-4 bg-white background-shadow text-center leading-[60px]
+  }
+  .title-container{
+    @apply w-full flex justify-center items-center flex-col relative
+  }
+  .background-img{
+    @apply absolute -top-40 -z-10 w-[50vw] max-w-[550px] min-w-[400px] opacity-70
+  }
+  .year{
+    @apply font-faculty-glyphic text-blue2
+  }
+  .phase{
+    @apply font-oswald text-2xl tracking-wide mt-[2px] mb-1
+  }
+  .desc{
+    @apply font-faculty-glyphic opacity-75
+  }
+}
