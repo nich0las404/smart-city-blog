@@ -27,7 +27,6 @@ export default {
         'super-sm': '600px',
         'phone-sm': '450px',
       },
-      
     },
   },
   plugins: [
