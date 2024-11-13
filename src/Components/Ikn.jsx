@@ -6,7 +6,7 @@ const Ikn = () => {
   return (
     <div id="ikn" className='mt-44'>
         <div className='title-container'>
-            <img className='background-img' src={ikn} alt="" />
+            <img className='background-img' src={ikn} alt="ikn logo" />
             <h1 className='title-text'>Proyek <span className='text-primary'>Pembangunan IKN</span></h1>
             <p className='info-text'>Pembangunan Ibu Kota Nusantara (IKN) adalah upaya pemerintah Indonesia untuk menciptakan pusat pemerintahan baru yang modern, berkelanjutan, dan berbasis teknologi di Pulau Kalimantan, yang akan menggantikan Jakarta sebagai ibu kota negara. Sebagai proyek strategis nasional, IKN didesain tidak hanya sebagai pusat pemerintahan, tetapi juga sebagai prototipe smart city yang mengintegrasikan teknologi canggih untuk efisiensi tata kota, energi bersih, dan layanan publik yang optimal.</p>
         </div>

@@ -14,7 +14,7 @@ const JangkaWaktu = () => {
         </div>
         
 
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-justify mx-8 lg:mx-24">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-justify mx-8 lg:mx-24 ">
   <li>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">

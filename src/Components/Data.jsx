@@ -99,7 +99,7 @@ const Data = () => {
           <div
             key={section.id}
             ref={sectionRefs.current[index]}
-            className={`relative group rounded-lg overflow-hidden border-2 duration-300 mx-auto max-lg:w-[85%] ${
+            className={`relative group rounded-lg overflow-hidden border-2 duration-300 mx-auto w-full md:w-[90%] ${
               activeTitle === section.id ? 'border-faint-blue -translate-y-1 shadow-xl' : 'border-2'
             }`}
           >

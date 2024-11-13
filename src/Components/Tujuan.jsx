@@ -9,7 +9,7 @@ const Tujuan = () => {
       <div className='title-container'>
         <img className='background-img' src={img} alt='logo BPPN'  />
 
-        <h1 className='font-oswald text-5xl py-2 mx-4 bg-white background-shadow text-center'><span className='text-primary '>Tujuan Utama</span> 2025-2045</h1>
+        <h1 className='title-text'><span className='text-primary '>Tujuan Utama</span> 2025-2045</h1>
         <p className='info-text'>Tujuan Indonesia menuju tahun emas adalah menciptakan kota-kota yang adaptif terhadap teknologi dengan prioritas pada kualitas hidup, keberlanjutan lingkungan, dan efisiensi pelayanan publik. Melalui infrastruktur yang terintegrasi, pemerintah dapat memenuhi kebutuhan dengan solusi berbasis teknologi, menjadikan Indonesia negara maju dan ramah lingkungan.
       </p>
         

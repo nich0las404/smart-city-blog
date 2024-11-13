@@ -36,16 +36,16 @@
     box-shadow: 0px -10px 25px 10px white;
   }
   .info-text{
-    @apply font-faculty-glyphic w-[80%] max-w-screen-xl bg-white py-4 leading-[25px] text-justify
+    @apply font-faculty-glyphic w-[80%] max-w-screen-xl bg-white pb-4 pt-2 leading-[25px] text-justify z-10
   }
   .title-text{
-    @apply font-oswald text-5xl py-2 mx-4 bg-white background-shadow text-center leading-[60px]
+    @apply font-oswald text-5xl py-2 mx-4 bg-white background-shadow text-center leading-[60px] z-10
   }
   .title-container{
     @apply w-full flex justify-center items-center flex-col relative
   }
   .background-img{
-    @apply absolute -top-40 -z-10 w-[50vw] max-w-[550px] min-w-[400px] opacity-70 
+    @apply absolute -top-40 z-0 w-[50vw] max-w-[550px] min-w-[400px] opacity-70 
   }
   @screen phone-super-sm{
     .background-img {
