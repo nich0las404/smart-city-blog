@@ -3,7 +3,7 @@ import { Data, Footer, Header, Navbar, Tujuan, VisiMisi, LatarBelakang, Ikn, Jan
 function App() {
 
   return (
-    <div className="max-container bg-white">
+    <div className="max-container bg-white text-black">
       <Navbar/>
       <Header  />
       <LatarBelakang />
