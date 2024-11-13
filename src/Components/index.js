@@ -6,7 +6,7 @@ import Tujuan from "./Tujuan";
 import VisiMisi from "./VisiMisi";
 import LatarBelakang from "./LatarBelakang";
 import Ikn from "./Ikn";
-import JangkaWaktu from "./jangkaWaktu";
+import JangkaWaktu from "./JangkaWaktu";
 export {
     Data,
     Footer,
