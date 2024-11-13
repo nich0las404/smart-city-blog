@@ -45,7 +45,12 @@
     @apply w-full flex justify-center items-center flex-col relative
   }
   .background-img{
-    @apply absolute -top-40 -z-10 w-[50vw] max-w-[550px] min-w-[400px] opacity-70
+    @apply absolute -top-40 -z-10 w-[50vw] max-w-[550px] min-w-[400px] opacity-70 
+  }
+  @screen phone-super-sm{
+    .background-img {
+      @apply min-w-full
+    }
   }
   .year{
     @apply font-faculty-glyphic text-blue2

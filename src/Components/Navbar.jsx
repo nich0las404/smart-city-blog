@@ -35,7 +35,7 @@ const Navbar = () => {
           <a href='#visi-misi' className='hover:text-white hover:bg-contrast-blue'>Visi & Misi</a></li>
       </ul>
     </div>
-    <div className="text-xl font-oswald px-3">Indonesia Emas 2045</div>
+    <div className="text-xl font-oswald phone-sm:px-2">Indonesia Emas 2045</div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-2">
