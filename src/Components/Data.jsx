@@ -77,7 +77,7 @@ const Data = () => {
 
       <div className="grid lg:grid-cols-2 lg:gap-2 mx-4 lg:mt-6">
       {/* Left Side: Titles with sticky positioning */}
-      <div className="space-y-4 lg:sticky lg:top-40 flex flex-col justify-start items-center lg:h-[50vh] lg:text-start max-lg:mb-8 max-lg:mt-2">
+      <div className="space-y-4 lg:sticky lg:top-40 flex flex-col justify-start items-center lg:h-[50vh] lg:text-start">
         {sections.map((section, index) => (
           <button
             key={section.id}
@@ -94,7 +94,7 @@ const Data = () => {
       </div>
 
       {/* Right Side: Images with Titles */}
-      <div className="space-y-6 max-lg:space-y-4">
+      <div className="space-y-6 max-lg:space-y-4 max-lg:mt-6">
         {sections.map((section, index) => (
           <div
             key={section.id}

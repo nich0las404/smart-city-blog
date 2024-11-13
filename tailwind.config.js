@@ -26,8 +26,9 @@ export default {
         'mid': '850px',
         'super-sm': '600px',
         'phone-sm': '450px',
+        'sm2': '380px',
         'phone-super-sm': {'max': '400px'},
-        'sm2': '380px'
+        'max-lg': {'max': '1024px'}
       },
     },
   },
