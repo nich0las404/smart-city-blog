@@ -52,8 +52,8 @@ const Navbar = () => {
           <a href='#visi-misi' className='hover:text-white hover:bg-contrast-blue'>Visi & Misi</a></li>
     </ul>
   </div>
-  <div className="navbar-end ">
-    <a href='https://drive.google.com/file/d/1e8Dz4f_6jkLTZ5UvqxXpHEdHk9W2LahV/view' target='_blank' className="btn font-faculty-glyphic font-light rounded-full bg-blue hover:bg-contrast-blue text-white">Dokumentasi</a>
+  <div className="navbar-end">
+    <a href='https://drive.google.com/file/d/1e8Dz4f_6jkLTZ5UvqxXpHEdHk9W2LahV/view' target='_blank' className="btn font-faculty-glyphic font-light rounded-full bg-blue hover:bg-contrast-blue text-white border-none">Dokumentasi</a>
   </div>
 </div>
   )
