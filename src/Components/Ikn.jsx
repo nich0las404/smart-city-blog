@@ -19,7 +19,7 @@ const Ikn = () => {
                 <img alt="ikn after"
                 src={iknAfter} />
             </div>
-        <div class="diff-resizer bg-white text-white"></div>
+        <div class="diff-resizer"></div>
         </div>
         <p className='font-oswald text-center mt-3 text-2xl mx-8 opacity-60'>( Foto ini diambil Sebelum dan setelah proyek IKN pada tahun 2022 hingga 2024 )</p>
         <div className='flex justify-center mt-3'>

@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 gap-1 shadow-xl">
+        className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 gap-1 shadow-xl ">
         <li>
           <a href='#tujuan' className='hover:text-white hover:bg-contrast-blue'>Tujuan</a></li>
         <li>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <a href='#visi-misi' className='hover:text-white hover:bg-contrast-blue'>Visi & Misi</a></li>
       </ul>
     </div>
-    <div className="text-xl font-oswald phone-sm:px-2">Indonesia Emas 2045</div>
+    <div className="text-xl font-oswald px-2">Indonesia Emas 2045</div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-2">
