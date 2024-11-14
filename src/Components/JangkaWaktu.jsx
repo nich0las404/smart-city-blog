@@ -28,10 +28,10 @@ const JangkaWaktu = () => {
       Pada fase awal, Indonesia berfokus pada pembangunan infrastruktur digital dan dasar smart city. Ini mencakup peningkatan akses internet di seluruh wilayah, pembangunan infrastruktur penting, serta pelatihan literasi digital untuk tenaga kerja yang siap menghadapi era teknologi.
       </p>
     </div>
-    <hr/>
+    <hr className='bg-slate-200'/>
   </li>
   <li>
-    <hr/>
+    <hr className='bg-slate-200'/>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5 ">
         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
@@ -42,10 +42,10 @@ const JangkaWaktu = () => {
       <div className="phase">Pertumbuhan Ekonomi Hijau</div>
       <p className='desc'>Memanfaatkan bonus demografi, Indonesia akan meningkatkan produktivitas melalui industrialisasi dan ekonomi digital yang berkelanjutan, mendukung implementasi smart city di seluruh wilayah dengan memperhatikan pembangunan ekonomi yang adil.</p>
     </div>
-    <hr/>
+    <hr className='bg-slate-200'/>
   </li>
   <li>
-    <hr/>
+    <hr className='bg-slate-200'/>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
@@ -58,10 +58,10 @@ const JangkaWaktu = () => {
       Fokus pada fase ini adalah integrasi IoT dan AI dalam layanan publik, pengelolaan perkotaan yang cerdas, serta optimalisasi energi. Fase ini juga menitikberatkan pada ketahanan iklim dan pengembangan smart city berteknologi tinggi.
       </p>
     </div>
-    <hr/>
+    <hr className='bg-slate-200'/>
   </li>
   <li>
-    <hr/>
+    <hr className='bg-slate-200'/>
     <div className="timeline-middle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
