@@ -53,10 +53,10 @@
     }
   }
   .year{
-    @apply font-faculty-glyphic text-blue2
+    @apply font-faculty-glyphic text-blue2 text-[18px]
   }
   .phase{
-    @apply font-oswald text-2xl tracking-wide mt-[2px] mb-1
+    @apply font-oswald text-[25px] tracking-wide mt-[2px] mb-1
   }
   .desc{
     @apply font-faculty-glyphic opacity-75

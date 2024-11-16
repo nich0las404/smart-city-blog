@@ -13,19 +13,27 @@ const Header = () => {
     <section>
         <div className='hero text-center items-center relative z-0 h-screen mb-24'>
           <img src={vectorImg} className='absolute top-10 w-full bg-cover bg-center bg-no-repeat -z-10 h-full object-cover opacity-50'/>
+          <motion.div 
+          initial={{ height: '100%' }} 
+          animate={{ height: '0%' }}
+          transition={{ duration: 0.8, ease: 'easeIn' }}
+          className='absolute bg-white w-full -z-[1]'></motion.div>
           <div>
-          <motion.h1 className=' sm:text-8xl text-5xl phone-sm:text-7xl font-oswald font-bold text-dark-blue'
+          <motion.h1 className=' sm:text-8xl text-5xl phone-sm:text-7xl font-oswald font-bold text-dark-blue mx-2 leading-[50px]'
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }}  
-          transition={{ duration: 1 }} >Smart City</motion.h1>
+          transition={{ 
+            duration: 1,
+            delay: 0.9
+          }} >Indonesia Emas 2045</motion.h1>
           <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic  rounded-full font-bold phone-sm:my-4 text-sm'
           initial={{opacity: 0}}
           animate={{opacity: 1}}
           transition={{
             duration: 1,
-            delay:0.5
+            delay: 1.4
           }}
-          >menuju Indonesia emas 2045</motion.p>
+          >Menuju Era Emas Indonesia</motion.p>
 
           </div>
           <button className='animate absolute sm:w-[140px] sm:h-[140px] sm:-bottom-[105px] phone-sm:-bottom-24

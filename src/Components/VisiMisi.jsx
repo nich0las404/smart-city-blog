@@ -1,17 +1,33 @@
 import React from 'react'
 import IndoLogo from '../assets/logo-indonesia-emas.png';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 const VisiMisi = () => {
   const [selectedVid, setSelectedVid] = useState(1)
   const videos = [
     'https://www.youtube.com/embed/PX2BHNylSkE?si=mgfuvbp67RcPjPuR',
     'https://www.youtube.com/embed/xbC4Akr9YQw?si=3NLhLQXseIZiLb96'
-  ]
+  ];
+  const animationVariant = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
   return (
     <div className='mt-52' id="visi-misi">
       <div className='title-container'>
-        <img className='background-img max-w-[350px] opacity-100' src={IndoLogo} alt="" />
-        <h1 className='title-text w-full text-primary'>Visi & Misi</h1>
+        <motion.img 
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}className='background-img max-w-[350px] opacity-100' src={IndoLogo} alt="" />
+        <motion.h1
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className='title-text w-full text-primary'>Visi & Misi</motion.h1>
         <p className='info-text max-w-lg'>Kementerian PPN/Bappenas menyusun Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045 mendukung pelaksanaan Visi Indonesia 2045.</p>
       </div>
       <div className=' flex justify-center flex-col items-center'>

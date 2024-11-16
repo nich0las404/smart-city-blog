@@ -5,6 +5,7 @@ import umkm from '../assets/umkm-indo.jpeg'
 import smartGrid from '../assets/smart-grid.png'
 import ebt from '../assets/ebt-img.png'
 import kidsCoding from '../assets/kids-coding.webp'
+import { motion } from 'framer-motion';
 const Data = () => {
   const [activeTitle, setActiveTitle] = useState(null);
   const sections = [
@@ -46,7 +47,7 @@ const Data = () => {
   // Function to handle scrolling to a section
   const scrollToSection = (index) => {
     sectionRefs.current[index].current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    setActiveTitle(sections[index].id); // Highlight title immediately when clicked
+    setActiveTitle(sections[index].id); 
   };
 
   useEffect(() => {
@@ -63,11 +64,32 @@ const Data = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   
+  // FRAMER animation 
+  const animationVariant = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+  const variant2 = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
   return (
     <div id="data" className='mt-56'>
       <div className='title-container'>
-        <img className='background-img max-w-[350px] min-w-[300px] -top-44' src={kominfo} alt="" />
-        <h1 className='title-text '><span className='text-primary'>Rencana Perkembangan</span> 2025-2045</h1>
+        <motion.img
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className='background-img max-w-[350px] min-w-[300px] -top-44' src={kominfo} alt="" />
+        <motion.h1 
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className='title-text '><span className='text-primary'>Rencana Perkembangan</span> 2025-2045</motion.h1>
         <p className='info-text'>
           Rencana RPJPN berfokus pada pembangunan berkelanjutan melalui konsep kota pintar (smart city), dengan visi utama mencapai Indonesia yang bersatu, berdaulat, maju, dan berkelanjutan pada peringatan 100 tahun kemerdekaan. Pemerintah telah menetapkan delapan misi utama untuk mencapai visi ini, termasuk transformasi sosial, ekonomi, dan tata kelola, yang ditopang oleh supremasi hukum, stabilitas, kepemimpinan, dan ketahanan sosial budaya serta ekologi. Strategi ini bertujuan mengintegrasikan teknologi canggih di berbagai aspek kehidupan perkotaan, memperbaiki kualitas layanan publik, serta meningkatkan konektivitas digital dan keberlanjutan lingkungan. Berikut adalah perubahan-perubahan yang direncanakan untuk pembangunan:
         </p>
@@ -96,7 +118,12 @@ const Data = () => {
       {/* Right Side: Images with Titles */}
       <div className="space-y-6 max-lg:space-y-4 max-lg:mt-6">
         {sections.map((section, index) => (
-          <div
+          <motion.div
+          variants={variant2}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
             key={section.id}
             ref={sectionRefs.current[index]}
             className={`relative group rounded-lg overflow-hidden border-2 duration-300 mx-auto w-full md:w-[90%] ${
@@ -111,7 +138,7 @@ const Data = () => {
             <p className=" text-md font-oswald tracking-wide mx-2 my-1">
               {section.desc}
             </p>
-          </div>
+          </motion.div>
         ))}
       </div>
       </div>

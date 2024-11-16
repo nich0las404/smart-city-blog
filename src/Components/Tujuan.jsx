@@ -1,23 +1,42 @@
-import React from 'react'
 import { dataTujuanUtama, tujuanUtamaArr } from '../Information'
 import TujuanCard from '../Elements/TujuanCard'
 import img from '../assets/logo-BPPN.png'
 import Stat from '../Elements/Stat'
+import { motion } from 'framer-motion'
+
 const Tujuan = () => {
+  
+  const animationVariant = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
   return (
     <div id="tujuan" className='mt-52'>
       <div className='title-container'>
-        <img className='background-img' src={img} alt='logo BPPN'  />
+        <motion.img  
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className='background-img' src={img} alt='logo BPPN'  />
 
-        <h1 className='title-text'><span className='text-primary '>Tujuan Utama</span> 2025-2045</h1>
-        <p className='info-text'>Tujuan Indonesia menuju tahun emas adalah menciptakan kota-kota yang adaptif terhadap teknologi dengan prioritas pada kualitas hidup, keberlanjutan lingkungan, dan efisiensi pelayanan publik. Melalui infrastruktur yang terintegrasi, pemerintah dapat memenuhi kebutuhan dengan solusi berbasis teknologi, menjadikan Indonesia negara maju dan ramah lingkungan.
+        <motion.h1 
+        variants={animationVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className='title-text'><span className='text-primary '>Tujuan Utama</span> 2025-2045</motion.h1>
+        <p 
+        className='info-text'>Tujuan Indonesia menuju tahun emas adalah menciptakan kota-kota yang adaptif terhadap teknologi dengan prioritas pada kualitas hidup, keberlanjutan lingkungan, dan efisiensi pelayanan publik. Melalui infrastruktur yang terintegrasi, pemerintah dapat memenuhi kebutuhan dengan solusi berbasis teknologi, menjadikan Indonesia negara maju dan ramah lingkungan.
       </p>
         
       </div>
 
-      <div className='mt-4 gap-4 grid grid-cols-1 super-sm:grid-cols-2  xl:grid-cols-4 mx-3 mb-4'>
-        {tujuanUtamaArr.map(({title, body, imgSrc} , index) => (
-          <TujuanCard key={index} titleText={title} bodyText={body} src={imgSrc}/>
+      <div className='mt-4 gap-4 grid grid-cols-1 super-sm:grid-cols-2  xl:grid-cols-4 mx-auto mb-4 max-w-screen-lg'>
+        {tujuanUtamaArr.map(({title, body, imgSrc, linkSrc} , index) => (
+          <TujuanCard key={index} titleText={title} bodyText={body} src={imgSrc} link={linkSrc}/>
         ))}
       </div>
 
