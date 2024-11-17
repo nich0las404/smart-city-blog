@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
-        'faculty-glyphic': ['Faculty Glyphic', 'sans-serif']
+        'faculty-glyphic': ['Host Grotesk', 'sans-serif'],
+        'host-grotesk': ['Host Grotesk', 'sans-serif']
       },
       colors: {
         'primary': '#024CAA', // dark blue

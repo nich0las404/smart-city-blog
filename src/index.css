@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,7 +31,7 @@
     box-shadow: 0px -10px 25px 10px white;
   }
   .info-text{
-    @apply font-faculty-glyphic w-[80%] max-w-screen-xl bg-white pb-4 pt-2 leading-[25px] text-justify z-10
+    @apply font-faculty-glyphic w-[80%] max-w-screen-xl bg-white pb-4 pt-2 leading-[25px] text-justify z-10 text-[17px]
   }
   .title-text{
     @apply font-oswald text-5xl py-2 mx-4 bg-white background-shadow text-center leading-[60px] z-10

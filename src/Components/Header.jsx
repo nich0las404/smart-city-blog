@@ -26,7 +26,7 @@ const Header = () => {
             duration: 1,
             delay: 0.9
           }} >Indonesia Emas 2045</motion.h1>
-          <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic  rounded-full font-bold phone-sm:my-4 text-sm'
+          <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic font-semibold phone-sm:my-4 text-sm mx-4'
           initial={{opacity: 0}}
           animate={{opacity: 1}}
           transition={{
