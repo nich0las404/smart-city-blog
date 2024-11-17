@@ -36,7 +36,7 @@ const Header = () => {
           >Menuju Generasi Yang Bersatu, Berkarya, dan Mendunia</motion.p>
 
           </div>
-          <button className='animate absolute sm:w-[140px] sm:h-[140px] sm:-bottom-[105px] phone-sm:-bottom-24
+          <button className='hover:animate-[bounce] absolute sm:w-[140px] sm:h-[140px] sm:-bottom-[105px] phone-sm:-bottom-24
           phone-sm:w-[120px] phone-sm:h-[120px] bg-blue rounded-full items-center hover:bg-contrast-blue hover-bounce w-[80px] h-[80px] -bottom-[80px]' onClick={() => scrollToSection('latar-belakang')}>
           <i class="fa-solid fa-arrow-down text-white phone-sm:text-5xl sm:text-6xl text-4xl"></i>
           </button>
