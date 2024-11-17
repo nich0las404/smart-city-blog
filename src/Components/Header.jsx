@@ -19,7 +19,7 @@ const Header = () => {
           transition={{ duration: 0.8, ease: 'easeIn' }}
           className='absolute bg-white w-full -z-[1]'></motion.div>
           <div>
-          <motion.h1 className=' sm:text-8xl text-5xl phone-sm:text-7xl font-oswald font-bold text-dark-blue mx-2 leading-[50px]'
+          <motion.h1 className=' sm:text-8xl text-5xl phone-sm:text-7xl font-oswald font-bold text-dark-blue mx-4 leading-[50px]'
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }}  
           transition={{ 
@@ -33,7 +33,7 @@ const Header = () => {
             duration: 1,
             delay: 1.4
           }}
-          >Menuju Era Emas Indonesia</motion.p>
+          >Menuju Generasi Yang Bersatu, Berkarya, dan Mendunia</motion.p>
 
           </div>
           <button className='animate absolute sm:w-[140px] sm:h-[140px] sm:-bottom-[105px] phone-sm:-bottom-24

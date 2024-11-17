@@ -9,7 +9,7 @@ const Ikn = () => {
         visible: { opacity: 1, y: 0 },
     };
   return (
-    <div id="ikn" className='mt-44'>
+    <div id="ikn" className='mt-52'>
         <div className='title-container'>
             <motion.img
             variants={animationVariant}
@@ -41,7 +41,7 @@ const Ikn = () => {
         <p className='font-oswald text-center mt-3 text-2xl mx-8 opacity-60'>( Foto ini diambil oleh <a className='underline text-dark-blue  hover:text-blue2 duration-300' target='_blank' href="https://www.cnbcindonesia.com/tech/20240430225822-37-534818/nasa-sorot-proyek-ikn-jokowi-beberkan-foto-dari-langit">NASA</a>, menunjukkan proyek IKN pada tahun 2022 hingga 2024 )</p>
         <div className='flex justify-center mt-3'>
             <p className='info-text'>
-            Berdasarkan Undang-Undang No. 3 Tahun 2022 tentang Ibu Kota Negara, pengembangan IKN memiliki tujuan yang sejalan dengan visi "Indonesia Emas 2045," yakni menciptakan pusat ekonomi dan inovasi yang dapat meningkatkan daya saing Indonesia di tingkat global serta mempercepat transformasi digital dan transisi energi terbarukan. Infrastruktur digital di IKN akan dilengkapi jaringan smart grid, sistem pengelolaan air yang cerdas, serta layanan transportasi dan pemantauan kota berbasis Internet of Things (IoT) dan kecerdasan buatan (AI), mendukung target emisi karbon nol pada 2045. Dengan investasi dalam IKN, para investor akan berperan dalam proyek yang didukung penuh oleh regulasi nasional dan memiliki prospek ekonomi yang menjanjikan, baik dalam bidang teknologi maupun keberlanjutan lingkungan, menjadikan IKN model ideal bagi smart city di Indonesia yang akan direplikasi ke kota-kota lain.
+            Berdasarkan Undang-Undang No. 3 Tahun 2022 tentang Ibu Kota Negara, pengembangan IKN memiliki tujuan yang sejalan dengan visi "Indonesia Emas 2045," yakni menciptakan pusat ekonomi dan inovasi yang dapat meningkatkan daya saing Indonesia di tingkat global serta mempercepat transformasi digital dan transisi energi terbarukan. Infrastruktur digital di IKN akan dilengkapi jaringan smart grid, sistem pengelolaan air yang cerdas, serta layanan transportasi dan pemantauan kota berbasis <i>Internet of Things</i> (IoT) dan <i>Artificial Intellegence</i> (AI), mendukung target emisi karbon nol pada 2045. Dengan investasi dalam IKN, para investor akan berperan dalam proyek yang didukung penuh oleh regulasi nasional dan memiliki prospek ekonomi yang menjanjikan, baik dalam bidang teknologi maupun keberlanjutan lingkungan, menjadikan IKN model ideal bagi smart city di Indonesia yang akan direplikasi ke kota-kota lain.
             </p>
         </div>
     </div>

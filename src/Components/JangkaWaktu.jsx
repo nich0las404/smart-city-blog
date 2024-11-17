@@ -20,27 +20,27 @@ const JangkaWaktu = () => {
     {
       year: '2025-2029',
       phase: 'Fondasi Infrastruktur dan Digitalisasi',
-      desc: 'Pada fase awal, Indonesia berfokus pada pembangunan infrastruktur digital dan dasar smart city. Ini mencakup peningkatan akses internet di seluruh wilayah, pembangunan infrastruktur penting, serta pelatihan literasi digital untuk tenaga kerja yang siap menghadapi era teknologi.',
+      desc: 'Pada fase awal, Indonesia berfokus pada pembangunan infrastruktur digital mendasar. Ini mencakup peningkatan akses internet di seluruh wilayah, pembangunan infrastruktur penting, serta pelatihan literasi digital untuk tenaga kerja yang siap menghadapi era teknologi.',
     },
     {
       year: '2030-2034',
       phase: 'Pertumbuhan Ekonomi Hijau',
-      desc: 'Memanfaatkan bonus demografi, Indonesia akan meningkatkan produktivitas melalui industrialisasi dan ekonomi digital yang berkelanjutan, mendukung implementasi smart city di seluruh wilayah dengan memperhatikan pembangunan ekonomi yang adil.',
+      desc: 'Memanfaatkan bonus demografi, Indonesia akan meningkatkan produktivitas melalui industrialisasi dan ekonomi digital yang berkelanjutan, mendukung implementasi digital di seluruh wilayah dengan memperhatikan pembangunan ekonomi yang adil.',
     },
     {
       year: '2035-2039',
-      phase: 'Integrasi Teknologi Lanjutan',
+      phase: 'Integrasi Teknologi Berkelanjutan',
       desc: 'Fokus pada fase ini adalah integrasi IoT dan AI dalam layanan publik, pengelolaan perkotaan yang cerdas, serta optimalisasi energi. Fase ini juga menitikberatkan pada ketahanan iklim dan pengembangan smart city berteknologi tinggi.',
     },
     {
       year: '2040-2045',
       phase: 'Keberlanjutan dan Daya Saing Global',
-      desc: 'Menjelang 2045, Indonesia menargetkan emisi nol bersih dan posisi ekonomi global yang kompetitif. Smart city akan dioptimalkan di seluruh wilayah dengan akses digital yang merata dan tata kota yang berkelanjutan.',
+      desc: 'Menjelang 2045, Indonesia menargetkan emisi karbon nol, bersih akan CO2, dan posisi ekonomi global yang kompetitif. Teknologi akan dioptimalkan di seluruh wilayah Indonesia dengan akses digital yang merata dan tata kota yang berkelanjutan.',
     },
   ];
 
   return (
-    <div className="mt-52" id="jangka-waktu">
+    <div className="mt-56" id="jangka-waktu">
       <div className="title-container">
         <motion.img
           variants={animationVariant}

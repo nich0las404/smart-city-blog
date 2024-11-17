@@ -15,16 +15,10 @@
         max-width: 1440px;
         margin: 0 auto;
     };
-    .text-img{
-        background: url('./assets/Futuristic-town-indo1.jpg');
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    };
     @keyframes bounce {
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-10px); }
     }
-      
     .hover-bounce {
     @apply transition-all duration-300; /* Smooth transition for the bounce effect */
     }
@@ -61,7 +55,4 @@
   .desc{
     @apply font-faculty-glyphic opacity-75
   }
-
-  /* Animation */
-  
 }
