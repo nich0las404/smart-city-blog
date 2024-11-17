@@ -26,7 +26,7 @@ const Header = () => {
             duration: 1,
             delay: 0.9
           }} >Smart City</motion.h1>
-          <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic font-semibold phone-sm:my-4 text-sm mx-4'
+          <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic font-semibold phone-sm:my-4 text-lg mx-4 '
           initial={{opacity: 0}}
           animate={{opacity: 1}}
           transition={{
