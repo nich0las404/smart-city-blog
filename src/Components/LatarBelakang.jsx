@@ -13,7 +13,7 @@ const LatarBelakang = () => {
       animate={isInView ? { opacity: 1, y: 0 } : {}} 
       transition={{ duration: 0.5 }}
       >
-        <span className='text-xl  2xl:text-3xl font-bold text-dark-blue xl:text-2xl '> Indonesia emas 2045</span> adalah visi besar untuk menjadikan Indonesia negara maju, berdaulat, adil, dan makmur pada peringatan 100 tahun kemerdekaan. Dengan memanfaatkan bonus demografi, penguatan ekonomi, inovasi teknologi, pembangunan infrastruktur, dan peningkatan kualitas pendidikan, Indonesia mempersiapkan para generasi muda dengan kebutuhan yang berkualitas, kompeten, dan berdaya saing tinggi.
+        <span className='text-xl  2xl:text-3xl font-bold text-dark-blue xl:text-2xl '> Smart City</span> adalah adalah konsep pengembangan kota Indonesia bertujuan untuk meningkatkan kualitas hidup masyarakat, mendukung perwujudan Visi Indonesia Emas 2045, Negara Kesatuan Republik Indonesia yang Bersatu, Berdaulat, Maju, dan Berkelanjutan.
       </motion.p>
     </div>
   )

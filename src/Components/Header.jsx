@@ -25,7 +25,7 @@ const Header = () => {
           transition={{ 
             duration: 1,
             delay: 0.9
-          }} >Indonesia Emas 2045</motion.h1>
+          }} >Smart City</motion.h1>
           <motion.p className='my-2 phone-sm:text-xl font-faculty-glyphic font-semibold phone-sm:my-4 text-sm mx-4'
           initial={{opacity: 0}}
           animate={{opacity: 1}}
@@ -33,7 +33,7 @@ const Header = () => {
             duration: 1,
             delay: 1.4
           }}
-          >Menuju Generasi Yang Bersatu, Berkarya, dan Mendunia</motion.p>
+          >Menuju Era Digital Yang Bersatu, Berkarya, dan Mendunia</motion.p>
 
           </div>
           <button className='hover:animate-[bounce] absolute sm:w-[140px] sm:h-[140px] sm:-bottom-[105px] phone-sm:-bottom-24
