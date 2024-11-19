@@ -91,7 +91,7 @@ const Data = () => {
         transition={{ duration: 0.5 }}
         className='title-text '><span className='text-primary'>Rencana Perkembangan</span> 2025-2045</motion.h1>
         <p className='info-text'>
-          Rencana RPJPN berfokus pada pembangunan Smart City menggunakan integrasi teknologi, dengan visi utama mencapai Indonesia yang bersatu, berdaulat, maju, dan berkelanjutan pada peringatan 100 tahun kemerdekaan. Pemerintah telah menetapkan delapan misi utama untuk mencapai visi ini, termasuk transformasi sosial, ekonomi, dan tata kelola, yang ditopang oleh supremasi hukum, stabilitas, kepemimpinan, dan ketahanan sosial budaya serta ekologi. Strategi ini bertujuan mengintegrasikan teknologi canggih di berbagai aspek kehidupan perkotaan, memperbaiki kualitas layanan publik, serta meningkatkan konektivitas digital dan keberlanjutan lingkungan. Berikut adalah perubahan-perubahan yang direncanakan untuk pembangunan untuk mencapai misi utama Indonesia:
+          Rencana RPJPN berfokus pada pembangunan Smart City menggunakan integrasi teknologi, dengan visi utama mencapai Indonesia yang bersatu, berdaulat, maju, dan berkelanjutan pada peringatan <span className='text-dark-blue font-semibold'>100 tahun kemerdekaan</span>. Pemerintah telah menetapkan delapan misi utama untuk mencapai visi ini, termasuk transformasi sosial, ekonomi, dan tata kelola, yang ditopang oleh supremasi hukum, stabilitas, kepemimpinan, dan ketahanan sosial budaya serta ekologi. Strategi ini bertujuan mengintegrasikan teknologi canggih di berbagai aspek kehidupan perkotaan, memperbaiki kualitas layanan publik, serta meningkatkan konektivitas digital dan keberlanjutan lingkungan. Berikut adalah perubahan-perubahan yang direncanakan untuk pembangunan untuk mencapai misi utama Indonesia:
         </p>
       </div>
 
@@ -144,7 +144,7 @@ const Data = () => {
       </div>
 
       <div className='w-full flex justify-center mt-4'>
-        <p className='info-text'>Implementasi teknologi & digitalisasi diharapkan berjalan lancar dengan dukungan kerangka kebijakan yang kuat, termasuk Undang-Undang No. 59 Tahun 2024 yang menetapkan Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045 sebagai pedoman pembangunan. Pemerintah telah menyiapkan infrastruktur digital, mendukung otomatisasi dengan teknologi canggih, serta berkomitmen pada energi terbarukan untuk memastikan keberlanjutan. Dukungan kebijakan yang tersinkronisasi dari pusat hingga daerah, kemitraan strategis dengan sektor swasta, dan pelatihan digital bagi tenaga kerja lokal memperkuat kesiapan pelaksanaan smart city. Kolaborasi lintas sektor ini memungkinkan Indonesia mewujudkan kota-kota yang berkelanjutan dan berbasis teknologi pada 2045.</p>
+        <p className='info-text'>Implementasi teknologi & digitalisasi diharapkan berjalan lancar dengan dukungan kerangka kebijakan yang kuat, termasuk <span className='text-dark-blue font-semibold'>Undang-Undang No. 59 Tahun 2024</span> yang menetapkan RPJPN 2025-2045 sebagai pedoman pembangunan. Pemerintah telah menyiapkan infrastruktur digital, mendukung otomatisasi dengan teknologi canggih, serta berkomitmen pada energi terbarukan untuk memastikan keberlanjutan. Dukungan kebijakan yang tersinkronisasi dari pusat hingga daerah, kemitraan strategis dengan sektor swasta, dan pelatihan digital bagi tenaga kerja lokal memperkuat kesiapan pelaksanaan smart city. Kolaborasi lintas sektor ini memungkinkan Indonesia mewujudkan kota-kota yang berkelanjutan dan berbasis teknologi pada 2045.</p>
       </div>
     </div>
   )
