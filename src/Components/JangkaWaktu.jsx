@@ -35,7 +35,7 @@ const JangkaWaktu = () => {
     {
       year: '2040-2045',
       phase: 'Keberlanjutan dan Daya Saing Global',
-      desc: 'Menjelang 2045, Indonesia menargetkan emisi karbon nol, bersih akan CO2, dan posisi ekonomi global yang kompetitif. Teknologi akan dioptimalkan di seluruh wilayah Indonesia dengan akses digital yang merata dan tata kota yang berkelanjutan.',
+      desc: 'Menjelang 2045, Indonesia menargetkan emisi karbon nol, bersih akan CO2, dan posisi ekonomi global yang kompetitif. OECD memperkirakan bahwa ekonomi Indonesia akan tergolong maju dan akan mencapai U$Rp8,89 triliun dan menjadi ekonomi terbesar ke-4 di dunia.',
     },
   ];
 
