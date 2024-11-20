@@ -13,7 +13,7 @@ const LatarBelakang = () => {
       animate={isInView ? { opacity: 1, y: 0 } : {}} 
       transition={{ duration: 0.5 }}
       >
-        <span className='text-2xl  font-bold text-dark-blue xl:text-3xl '> Smart City</span> adalah adalah konsep pengembangan kota Indonesia bertujuan untuk meningkatkan kualitas hidup masyarakat, mendukung perwujudan Visi Indonesia Emas 2045, Negara Kesatuan Republik Indonesia yang Bersatu, Berdaulat, Maju, dan Berkelanjutan.
+        <span className='text-2xl  font-bold text-dark-blue xl:text-3xl '> Smart City</span> adalah konsep pengembangan kota Indonesia bertujuan untuk meningkatkan kualitas hidup masyarakat, mendukung perwujudan Visi Indonesia Emas 2045, Negara Kesatuan Republik Indonesia yang Bersatu, Berdaulat, Maju, dan Berkelanjutan.
       </motion.p>
     </div>
   )
